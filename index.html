@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/main.css">
+	<title>10-DARS</title>
+</head>
+<body>
+
+	<div class="container">
+		<form class="form" id="form" method="POST" action="">
+			<input id="search" class="input" name="search_input" type="text" placeholder="Search">
+			<button class="button">Search</button>
+		</form>
+		
+		<ul class="list" id="posts_list">
+			<li><img class="loader" src="./images/Bean Eater-0.8s-200px.svg" alt="loader"><p class="biroz">Iltimos! Biroz kuting</p></li>
+		</ul>
+	
+	
+		<template id="post_item_template">
+			<li class="item">
+				<img width="300" height="400" class="imag" id="image" src="" alt="">
+				<h2 class="title" id="post_heading">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam id repellat labore ipsam voluptatem architecto totam asperiores doloribus voluptate quasi.</h2>
+				<p class="text" id="post_user_id">Lorem, ipsum.</p>
+			</li>
+	</div>
+	</template>	
+	
+	<script src="./js/movies.js"></script>
+	<script src="./js/app.js"></script>
+</body>
+</html>

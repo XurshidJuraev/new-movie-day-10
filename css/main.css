@@ -1,0 +1,93 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("https://picsum.photos/id/684/600/400?blur=5");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+img{
+    vertical-align: middle;
+}
+.container{
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0)
+}
+.list{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.item{
+    text-align: center;
+    width: 300px;
+    height: 520px;
+    background-color: #c3c3c3;
+    margin-top: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.item:hover {
+    -webkit-box-shadow: 0 0 5px 2px #ee00f6;
+            box-shadow: 0 0 5px 2px #ee00f6;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+            transition: all 0.5s ease;
+  }
+.title::before{
+    content: "Title: ";
+}
+.text::before{
+    content: "Year: ";
+}
+.text{
+    color: #535383;
+}
+.loader{
+    width: 500px;
+    height: 400px;
+    margin-left: 370px;
+}
+.biroz{
+    font-size: 80px;
+    margin-left: 220px;
+    color: #ff960d;
+}
+.input{
+    width: 300px;
+    height: 50px;
+    border: none;
+    background-color: #46f1f1;
+    color: white;
+    border-radius: 8px;
+}
+.button{
+    border: none;
+    width: 80px;
+    height: 50px;
+    background-color: #9e46f1;
+    border-radius: 8px;
+    color: lawngreen;
+}
+.form{
+    margin-left: 427px;
+    padding-top: 40px;
+}
